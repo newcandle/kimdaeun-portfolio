@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="ko" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>김다은 | 중화권 글로벌 마케터 포트폴리오</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
+        body { font-family: 'Pretendard', sans-serif; background-color: #E5E7EB; color: #111; word-break: keep-all; }
+        
+        .sharp { border-radius: 0 !important; }
+        .border-thin { border: 2px solid #111; }
+        .shadow-solid { box-shadow: 8px 8px 0 0 #111; transition: transform 0.2s, box-shadow 0.2s; }
+        .shadow-solid:hover { transform: translate(-2px, -2px); box-shadow: 10px 10px 0 0 #111; }
+        .shadow-btn { box-shadow: 4px 4px 0 0 #111; transition: all 0.1s; }
+        .shadow-btn:active { transform: translate(4px, 4px); box-shadow: 0px 0px 0 0 #111; }
+        .shadow-soft { box-shadow: 10px 10px 0 0 rgba(17,17,17,0.15); }
+        
+        .fade-in-section { opacity: 0; transform: translateY(30px); transition: opacity 0.6s ease-out, transform 0.6s ease-out; }
+        .fade-in-section.is-visible { opacity: 1; transform: translateY(0); }
+        
+        .highlight { background-color: #CCFF00; padding: 0 4px; border: 1px solid #111; font-weight: 900; }
+        .highlight-yellow { background-color: #FFED4A; padding: 0 4px; border: 1px solid #111; font-weight: 900; }
+    </style>
+</head>
+<body class="antialiased selection:bg-[#CCFF00] selection:text-black">
+
+    <!-- Navigation -->
+    <nav class="fixed w-full top-0 z-50 bg-[#FFFDF9] border-b-2 border-[#111] transition-all duration-300">
+        <div class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="#home" class="text-xl font-black tracking-tighter uppercase">DAEUN<span class="text-[#FF3366]">.</span></a>
+            <div class="hidden md:flex gap-8 text-sm font-bold uppercase tracking-widest">
+                <a href="#profile" class="hover:bg-[#CCFF00] px-2 transition-colors">Profile</a>
+                <a href="#projects" class="hover:bg-[#CCFF00] px-2 transition-colors">Projects</a>
+                <a href="#contact" class="hover:bg-[#CCFF00] px-2 transition-colors">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="min-h-screen flex items-center justify-center relative px-6 bg-[#FFFDF9] overflow-hidden pt-20 border-b-2 border-[#111]">
+        <div class="max-w-6xl mx-auto w-full flex flex-col md:flex-row items-center relative fade-in-section">
+            
+            <div class="w-full md:w-1/2 bg-white p-8 md:p-12 border-thin shadow-solid z-20 md:-mr-16 relative mb-10 md:mb-0">
+                <div class="inline-block border-thin px-3 py-1 mb-5 text-sm font-bold uppercase bg-[#FFED4A]">Global Marketer</div>
+                <h1 class="text-4xl md:text-5xl font-black mb-5 leading-tight tracking-tight">
+                    현장에서 답을 찾는<br>글로벌 마케터.
+                </h1>
+                <p class="text-base md:text-lg font-bold mb-8 text-gray-700 leading-relaxed">
+                    단순한 트래픽을 넘어, <span class="highlight">오프라인 매장의 실제 구매</span>를 이끌어내는 국경 없는 퍼포먼스.
+                </p>
+                <a href="#projects" class="inline-block bg-[#111] text-white px-6 py-3 text-sm font-black uppercase shadow-btn hover:bg-gray-800">
+                    View Projects ➔
+                </a>
+            </div>
+            
+            <div class="w-full md:w-2/3 z-10 relative">
+                <div class="absolute -top-4 -right-4 w-full h-full bg-[#38BDF8] border-thin sharp"></div>
+                <div class="bg-white border-thin shadow-soft overflow-hidden relative z-10 h-[350px] md:h-[450px]">
+                    <img src="./img_global.jpg" alt="Hero Image" class="w-full h-full object-cover grayscale-0">
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+    <!-- Profile & Timeline Section -->
+    <section id="profile" class="py-24 px-6 bg-[#E5E7EB] border-b-2 border-[#111]">
+        <div class="max-w-6xl mx-auto fade-in-section">
+            <h2 class="text-4xl font-black mb-12 uppercase tracking-tighter border-b-2 border-[#111] pb-3 inline-block">
+                01. Profile
+            </h2>
+            
+            <div class="grid md:grid-cols-12 gap-10 items-start">
+                <!-- Profile Photo -->
+                <div class="md:col-span-4 flex flex-col items-center">
+                    <div class="w-56 h-72 bg-white border-thin shadow-solid overflow-hidden mb-6 relative">
+                        <img src="./.user_uploaded/media_1789740994765.jpg" alt="증명사진" class="w-full h-full object-cover">
+                    </div>
+                    <h3 class="text-2xl font-black mb-2 tracking-tight">김다은</h3>
+                    <p class="font-bold text-gray-600 text-sm mb-5 tracking-widest">2000.09.08</p>
+                    <div class="flex flex-wrap justify-center gap-2 w-full max-w-[224px]">
+                        <span class="w-full text-center py-1.5 bg-white border-thin text-sm font-bold shadow-btn">HSK 5급</span>
+                        <span class="w-full text-center py-1.5 bg-white border-thin text-sm font-bold shadow-btn">HSKK 중급</span>
+                    </div>
+                </div>
+
+                <!-- Bio & Timeline -->
+                <div class="md:col-span-8 bg-[#FFFDF9] border-thin p-8 md:p-10 shadow-solid relative">
+                    <div class="absolute -top-3 left-1/2 -translate-x-1/2 w-24 h-5 bg-[#FF3366] border-thin z-10"></div>
+                    
+                    <h3 class="text-2xl font-black mb-5 uppercase tracking-tight mt-2">데이터와 현장의 연결선</h3>
+                    <p class="text-base md:text-lg font-bold leading-relaxed mb-10 text-gray-700">
+                        저는 쑤저우 교환학생과 샤홍슈 채널 직접 운영을 통해 <span class="highlight-yellow">중국 Z세대의 온라인 콘텐츠 문법</span>을 치열하게 훈련했습니다. 이후 올리브영 현장에서 글로벌 관광객들의 소비 패턴을 직접 관찰하며, '온라인 트래픽을 오프라인 구매로 전환시키는' 마케팅의 본질을 체득했습니다.
+                    </p>
+
+                    <h4 class="text-xl font-black mb-6 bg-[#CCFF00] inline-block px-3 py-1 uppercase border-thin">History</h4>
+                    <div class="space-y-6">
+                        <div class="flex flex-col md:flex-row border-b border-gray-300 pb-5 gap-4">
+                            <div class="w-36 flex-shrink-0 font-black text-[#A78BFA] text-lg">INTERNSHIP</div>
+                            <div>
+                                <h5 class="font-black text-lg mb-1">더랩바이블랑두 마케팅 인턴</h5>
+                                <p class="font-bold text-gray-600 text-sm">국내 뷰티 크리에이터 60인 매니징 및 기획 의도 디테일 검수</p>
+                                <p class="font-bold text-gray-800 text-sm mt-1.5"><span class="bg-[#CCFF00] px-1 border border-[#111]">각 SKU별로 세분화하여 총 1,664명의 크리에이터 대상 시딩 운영</span></p>
+                            </div>
+                        </div>
+                        <div class="flex flex-col md:flex-row border-b border-gray-300 pb-5 gap-4">
+                            <div class="w-36 flex-shrink-0 font-black text-[#38BDF8] text-lg">GLOBAL</div>
+                            <div>
+                                <h5 class="font-black text-lg mb-1">중국 쑤저우 대학교 교환학생</h5>
+                                <p class="font-bold text-gray-600 text-sm">중국 Z세대 플랫폼 특성 연구 및 위챗 O2O 프로모션 기획</p>
+                            </div>
+                        </div>
+                        <div class="flex flex-col md:flex-row gap-4">
+                            <div class="w-36 flex-shrink-0 font-black text-[#FF6B6B] text-lg">FIELD</div>
+                            <div>
+                                <h5 class="font-black text-lg mb-1">올리브영 명동점 근무</h5>
+                                <p class="font-bold text-gray-600 text-sm">외국인 관광객 세일즈 및 샤홍슈 기반 오프라인 구매 패턴 분석</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- KPI Banner Section -->
+    <section class="py-12 px-6 bg-white border-b-2 border-[#111]">
+        <div class="max-w-6xl mx-auto fade-in-section">
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-6">
+                <div class="bg-[#FFFDF9] border-thin shadow-btn p-6 flex flex-col justify-center items-center text-center">
+                    <div class="text-3xl md:text-4xl font-black mb-2">2.5만+</div>
+                    <div class="font-bold text-xs uppercase tracking-widest bg-[#CCFF00] px-2 py-0.5 border-thin">샤홍슈 누적 뷰</div>
+                </div>
+                <div class="bg-[#FFFDF9] border-thin shadow-btn p-6 flex flex-col justify-center items-center text-center">
+                    <!-- 피드백 반영: 60명+ -->
+                    <div class="text-3xl md:text-4xl font-black mb-2 text-[#FF3366]">60명+</div>
+                    <div class="font-bold text-xs uppercase tracking-widest bg-[#FFFDF9] px-2 py-0.5 border-thin">인플루언서 관리</div>
+                </div>
+                <div class="bg-[#FFFDF9] border-thin shadow-btn p-6 flex flex-col justify-center items-center text-center">
+                    <div class="text-3xl md:text-4xl font-black mb-2">36.5%</div>
+                    <div class="font-bold text-xs uppercase tracking-widest bg-[#FFED4A] px-2 py-0.5 border-thin">오가닉 노출률</div>
+                </div>
+                <div class="bg-[#111] text-white border-thin shadow-btn p-6 flex flex-col justify-center items-center text-center">
+                    <div class="text-3xl md:text-4xl font-black mb-2 text-[#38BDF8]">퍼포먼스</div>
+                    <div class="font-bold text-xs uppercase tracking-widest">온/오프라인 구매 전환</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-20 px-6 bg-[#E5E7EB] border-b-2 border-[#111]">
+        <div class="max-w-6xl mx-auto">
+            <h2 class="text-4xl font-black mb-16 uppercase tracking-tighter border-b-2 border-[#111] pb-3 inline-block fade-in-section">
+                02. Projects
+            </h2>
+
+            <div class="space-y-32">
+                
+                <!-- Project 1 -->
+                <div class="fade-in-section">
+                    <div class="flex flex-col md:flex-row items-center relative gap-4 md:gap-6">
+                        <div class="w-full md:w-5/12 bg-[#FFFDF9] p-8 md:p-10 border-thin shadow-solid z-20 mb-8 md:mb-0">
+                            <span class="inline-block px-3 py-1 bg-[#CCFF00] border-thin font-black text-xs uppercase tracking-widest mb-5">
+                                Platform Strategy
+                            </span>
+                            <h3 class="text-2xl md:text-3xl font-black uppercase tracking-tight mb-5 leading-snug">
+                                중국 Z세대 트렌드 기획 및 샤홍슈·위챗 운영
+                            </h3>
+                            <p class="font-bold text-gray-700 text-base md:text-lg leading-relaxed mb-4">
+                                현지 트렌드를 반영한 푸드 컨셉의 샤홍슈 숏폼을 운영해 <span class="highlight">누적 2.5만 뷰</span>를 달성하며 채널 기획력을 입증했습니다.
+                            </p>
+                            <p class="font-bold text-gray-700 text-base md:text-lg leading-relaxed">
+                                쑤저우 교환학생 당시, 위챗 홍보와 QR 유입 전략을 통해 <span class="highlight-yellow whitespace-nowrap">단 3일 만에</span> 15명의 실제 오프라인 행사 참여를 이끌어내며 뛰어난 플랫폼 활용 능력을 증명했습니다.
+                            </p>
+                        </div>
+                        <div class="w-full md:w-7/12 z-10 flex flex-row justify-center items-center gap-8 md:gap-10">
+                            <img src="./.user_uploaded/media_1789745279823.png" alt="Xiaohongshu Operation 1" class="h-[350px] md:h-[450px] w-auto border-thin shadow-soft sharp">
+                            <img src="./.user_uploaded/media_1789746025979.png" alt="Xiaohongshu Operation 2" class="h-[350px] md:h-[450px] w-auto border-thin shadow-soft sharp">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="fade-in-section">
+                    <div class="flex flex-col md:flex-row-reverse items-center relative gap-4 md:gap-6">
+                        <div class="w-full md:w-5/12 bg-[#FFFDF9] p-8 md:p-10 border-thin shadow-solid z-20 mb-8 md:mb-0">
+                            <span class="inline-block px-3 py-1 bg-[#A78BFA] text-white border-thin font-black text-xs uppercase tracking-widest mb-5">
+                                Influencer Management
+                            </span>
+                            <h3 class="text-2xl md:text-3xl font-black uppercase tracking-tight mb-5 leading-snug">
+                                국내 뷰티 크리에이터 60인 협업 및 디테일 검수
+                            </h3>
+                            <p class="font-bold text-gray-700 text-base md:text-lg leading-relaxed">
+                                뷰티 브랜드 마케팅 인턴 시, <span class="highlight whitespace-nowrap">국내 뷰티 크리에이터 60여 명</span>에게 기획 의도를 명확히 전달하고 프레임 단위로 영상을 꼼꼼히 검수하여 성공적인 협업을 완수했습니다. 
+                            </p>
+                            <p class="font-bold text-gray-700 text-base md:text-lg leading-relaxed mt-4">
+                                <span class="highlight-yellow">1만 명 리스트업이라는 방대한 데이터</span>를 오차 없이 관리하고 스케줄 지연 없이 프로젝트를 리드했습니다.
+                            </p>
+                        </div>
+                        <!-- 여기는 엑셀 가로 이미지이므로 기존 유지하되 테두리가 이미지에 밀착되도록 수정 -->
+                        <div class="w-full md:w-7/12 z-10 relative">
+                            <div class="relative overflow-hidden border-thin shadow-soft sharp bg-white">
+                                <img src="./img_excel.png" alt="Influencer Database" class="w-full h-[350px] md:h-[420px] object-cover object-left-top filter contrast-125 blur-sm">
+                                <div class="absolute inset-0 flex items-center justify-center pointer-events-none">
+                                    <span class="bg-black text-white px-4 py-2 font-bold uppercase tracking-widest bg-opacity-70">Confidential Data</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="fade-in-section">
+                    <!-- 피드백 반영: 텍스트 박스와 이미지가 절대 붙지 않도록 md:gap-12 추가, 억지 겹침(overlap) 제거 -->
+                    <div class="flex flex-col md:flex-row items-center relative gap-8 md:gap-12">
+                        <div class="w-full md:w-5/12 bg-[#FFFDF9] p-8 md:p-10 border-thin shadow-solid z-20 mb-8 md:mb-0">
+                            <span class="inline-block px-3 py-1 bg-[#38BDF8] text-white border-thin font-black text-xs uppercase tracking-widest mb-5">
+                                Viral Marketing
+                            </span>
+                            <h3 class="text-2xl md:text-3xl font-black uppercase tracking-tight mb-5 leading-snug">
+                                목표 노출률 30%를 초과한<br>36.5% 달성 및 확산
+                            </h3>
+                            <p class="font-bold text-gray-700 text-base md:text-lg leading-relaxed">
+                                시딩 키트의 핵심 굿즈인 '말랑이'의 완성도를 높이기 위해, 40곳 이상의 판매처를 리스트업 및 직접 컨택하여 꼼꼼한 샘플링을 거치는 등 최적의 퀄리티를 소싱해 냈습니다. 
+                            </p>
+                            <p class="font-bold text-gray-700 text-base md:text-lg leading-relaxed mt-4">
+                                그 결과 <span class="highlight">목표 오가닉 노출률(30%)을 초과한 36.5%</span>를 달성했으며, 추가로 트위터 누적 인게이지먼트 2,250건 이상의 자발적 확산을 이끌어냈습니다.
+                            </p>
+                        </div>
+                        
+                        <!-- 피드백 반영: 두 사각형 크기가 똑같아 보이도록 고정된 크기의 wrapper 박스 사용 -->
+                        <div class="w-full md:w-7/12 z-10 flex flex-col sm:flex-row justify-end items-center gap-8">
+                            <div class="w-full sm:w-1/2 h-[300px] md:h-[350px] bg-white border-thin shadow-soft flex items-center justify-center p-3">
+                                <img src="./img_twitter.png" alt="Twitter Viral 1" class="max-w-full max-h-full object-contain">
+                            </div>
+                            <div class="w-full sm:w-1/2 h-[300px] md:h-[350px] bg-white border-thin shadow-soft flex items-center justify-center p-3">
+                                <img src="./.user_uploaded/media_1789746414833.png" alt="Twitter Viral 2" onerror="this.src='./img_twitter.png'; this.onerror=null;" class="max-w-full max-h-full object-contain">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-24 px-6 bg-[#FFFDF9] border-t-2 border-[#111] relative overflow-hidden text-center">
+        <div class="max-w-4xl mx-auto fade-in-section relative z-10">
+            <h2 class="text-5xl md:text-7xl font-black mb-8 uppercase tracking-tighter">
+                Let's<br><span class="bg-[#CCFF00] px-4 border-thin">Work</span><br>Together
+            </h2>
+            <p class="text-xl font-bold mb-12 text-gray-700">
+                국경을 넘어 확실한 비즈니스 확장을 만들어냅니다.
+            </p>
+            <div class="flex flex-col md:flex-row justify-center items-center gap-4">
+                <a href="mailto:nulbom88@naver.com" class="bg-[#111] text-white border-thin px-8 py-4 text-lg font-black shadow-btn hover:bg-gray-800 transition-colors w-full md:w-auto">
+                    📧 nulbom88@naver.com
+                </a>
+                <a href="tel:01099545771" class="bg-white text-[#111] border-thin px-8 py-4 text-lg font-black shadow-btn hover:bg-gray-100 transition-colors w-full md:w-auto">
+                    📱 010-9954-5771
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-8 bg-[#111] text-center text-white font-bold uppercase tracking-widest text-xs">
+        <p>© 2026 KIM DAEUN. All rights reserved.</p>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if(entry.isIntersecting) {
+                        entry.target.classList.add('is-visible');
+                    }
+                });
+            }, { threshold: 0.15 });
+
+            document.querySelectorAll('.fade-in-section').forEach(el => observer.observe(el));
+        });
+    </script>
+</body>
+</html>
